@@ -7,15 +7,14 @@ color: #191970; /* Warna teks utama (Biru Gelap) */
 .kartu-profil {
   text-align: center;
   width: 300px;
-  margin: 150px auto; /* 50px jarak atas/bawah, auto menengahkan kiri/kanan */
+  margin: 150px auto; /* 150px jarak atas/bawah, auto menengahkan kiri/kanan */
   padding: 20px;
   background-color: white;
   border-radius: 15px; /* membuat sudut menjadi melengkung */
-box-shadow: 0 4px 8px rgba(0,0,0,0,1); /* efek bayangan */
+box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* efek bayangan */
 }
-|
 
-.kartu profil img {
+kartu-profil img {
   width: 120px;
   border-radius: 50%; /* trik untuk membuat gambar persegi menjadi lingkaran sempurna */
   margin-bottom: 10px;
