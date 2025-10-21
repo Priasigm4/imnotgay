@@ -5,8 +5,9 @@ color: #191970; /* warna teks utama (biru gelap) */
 }
 
 .kartu-profil {
+  text-align: center;
   width: 300px;
-  margin: 50px auto; /* 50px jarak atas/bawah, auto menengahkan kiri/kanan */
+  margin: 150px auto; /* 50px jarak atas/bawah, auto menengahkan kiri/kanan */
 padding: 20px;
   background-color: white;
   border-radius: 15px; /* membuat sudut menjadi melengkung */
@@ -15,8 +16,9 @@ box-shadow: 0 4px 8px rgba(0,0,0,0,1); /* efek bayangan */
 |
 
 .kartu profil img {
-  width: 150px;
+  width: 120px;
   border-radius: 50%; /* trik untuk membuat gambar persegi menjadi lingkaran sempurna */
+  margin-bottom: 10px;
 }
 .kartu profil {
   /* ... (kode dari slide sebelumnya) ...*/
